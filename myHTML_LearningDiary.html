@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網站</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #1f4037, #99f2c8);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #99f2c8;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        footer {
+            background: #1f4037;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .entry {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .entry h3 {
+            margin: 0 0 10px;
+            color: #99f2c8;
+        }
+        .date {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+        a {
+            color: #99f2c8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>我的學習日記</h1>
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="home">
+        <h2>日記條目</h2>
+        <div class="entry">
+            <h3>2024年6月3日</h3>
+            <p class="date">2024年6月3日</p>
+            <p>今天我學習了如何製作一個簡單的個人網站。我還學習了HTML和CSS的基本概念。</p>
+        </div>
+        <div class="entry">
+            <h3>2024年6月2日</h3>
+            <p class="date">2024年6月2日</p>
+            <p>今天我開始了我的學習地圖計畫，目標是成為一名全端開發者。</p>
+        </div>
+        <!-- 更多日記條目可以添加在這裡 -->
+    </section>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>你好，我是一名正在學習成為全端開發者的學生。在這個網站上，我會紀錄我的學習過程和一些生活點滴。</p>
+    </section>
+
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <p>你可以通過以下方式聯絡我：</p>
+        <p>Email: example@example.com</p>
+        <p>GitHub: <a href="https://github.com/your-github-username" target="_blank">你的GitHub</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 我的個人網站</p>
+</footer>
+
+</body>
+</html>
